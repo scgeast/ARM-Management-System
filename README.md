@@ -1,12 +1,11 @@
 # 🏗️ ARM — Alvend Readymix Management System
 
-**ARM (Alvend Readymix Management)** adalah aplikasi web *single-file* berbasis HTML + JavaScript untuk mengelola operasional penjualan dan pengiriman beton ready-mix. Aplikasi mencakup manajemen order, tracking pengiriman truk secara real-time, invoice, hardcopy request, laporan After Delivery Report (ADR), hingga master data (plant, mutu beton, wilayah, sales, dan customer).
+**ARM (Alvend Readymix Management)** adalah aplikasi web untuk mengelola operasional penjualan dan pengiriman beton ready-mix. Aplikasi mencakup manajemen order, tracking pengiriman truk secara real-time, invoice, hardcopy request, laporan After Delivery Report (ADR), hingga master data (plant, mutu beton, wilayah, sales, dan customer).
 
-> **Versi:** `v2.31.1-PRO-EXCEL`  
-> **Tipe:** Single-file Web App (HTML + CSS + JS)  
-> **Storage:** Browser LocalStorage + BroadcastChannel (realtime sync antar tab)  
-> **Bahasa:** Indonesia
-
+> **Versi:** `ARM v2.31.1-0  
+> **Tipe:**  
+> **Storage:**   
+> **Bahasa:** Engglish
 ---
 
 ## 📋 Daftar Isi
@@ -75,35 +74,5 @@
 - Notifikasi
 - Request hardcopy invoice
 
----
-
-## 🔑 Akun Demo
-
-| Role | Email | Password |
-|---|---|---|
-| Owner | `owner@alvend.com` | `owner123` |
-| Admin | `admin@alvend.com` | `admin123` |
-| Sales | `sales@alvend.com` | `sales123` |
-| Customer | `customer@alvend.com` | `customer123` |
-
-> ⚠️ Akun demo ini hanya untuk development/testing. Ganti dengan autentikasi backend untuk produksi.
-
----
-
-## 🚀 Cara Menjalankan
-
-1. **Simpan file** `index.html` (atau `arm.html`) di komputer/server.
-2. **Buka file** langsung di browser (Chrome/Edge/Firefox):
-   - Klik dua kali file, atau
-   - Drag & drop ke browser, atau
-   - Akses via URL jika di-host di web server (Apache/Nginx).
-3. **Login** menggunakan salah satu akun demo di atas.
-4. Data akan otomatis tersimpan di **LocalStorage** browser.
-
-> 💡 Untuk fitur upload Excel, browser **harus terkoneksi internet** saat pertama kali membuka aplikasi (untuk memuat library SheetJS dari CDN).
-
----
-
-## 🧭 Struktur Menu
 
 ### Owner
